@@ -1,0 +1,30 @@
+.portfolio-gallery {
+      margin: 20px auto;
+      background-color: #ccc;
+      width: 360px
+      text-align: center;
+      
+  }
+  
+  .portfolio-gallery a {
+      display: block;
+      float:left;
+      margin: 0 12px 12px 0;
+      line-height: 0;
+  }
+  
+  
+  
+  
+  
+  .portfolio-gallery img {
+      max-width: auto;
+    max-width: 100%;
+      height: auto;
+      border: 0;
+      
+  }
+  
+  .portfolio-gallery figure {
+      display: none;
+  }

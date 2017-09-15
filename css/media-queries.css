@@ -1,0 +1,258 @@
+/* 
+
+/* Wider Desktop down to narrower*/
+@media screen and (max-width: 1160px) {
+
+	.text-block-wrapper{
+		height: auto;
+	}
+	
+	.lowlight{
+		position: relative;
+	}
+
+}
+
+
+
+/* Narrow Desktop down to tablet Portrait */
+@media screen and (max-width: 851px) {
+
+	p {
+		font-size: 0.8em;
+	}
+	
+
+	.body-container {
+		padding-bottom: 0;
+	}
+
+	header {
+		background-color: #557faf;
+		padding-bottom: 6px;
+		padding-top: 10px;
+	}	
+	
+	.top-nav {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+		float: right;
+		margin-top: 0;
+		padding-right: 10px;
+		padding-top: 12px;
+	}
+
+	.container {
+		width: 100%;
+	}
+	
+	.site-header {
+		font-size: 2.2rem;
+		padding: 0;
+		width: auto;
+	}
+
+
+
+
+
+	
+	.home-quote > p {
+		font-size: 0.94rem;
+	}
+	
+	.home-quote-wrapper {
+		width: 232px;
+		padding-bottom: 2%;
+	}	
+
+	.home-quote {
+		font-size: 1rem;
+		padding-left: 8px;
+		padding-top: 14px;
+		width: 192px;
+		text-align: center;
+	}	
+	
+	.bracket{
+		width: 14px;
+		font-size: 68px;
+		line-height: 1;
+	}
+	
+	.close-bracket {
+		padding-left: 4px;
+	}
+	
+	.home-unit {
+		
+		height: auto;
+		margin: 0;
+		width: auto;
+		margin-bottom: 5%;
+	}
+	
+	.footer-text {
+		border: 2px solid #557faf;
+		/* border-radius: 7px; */
+		box-shadow: 1px 1px 4px #a8ceea;
+		color: #557faf;
+		font-family: keep calm;
+		padding-bottom: 1%;
+		text-align: center;
+		padding: 2%;
+	}	
+	
+
+	.home-mothers {
+		display: block;
+		height: 34px;
+		margin-top: 5%;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		position: relative;
+		text-align: center;
+	}
+		
+	.remember {
+		margin: 0 auto;
+		padding-top: 0;
+		width: 96%;
+	}
+	
+	.copyright, .crown{
+		
+	}
+	
+	.crown{
+		font-size: 18px;
+	}
+	
+	.email-contact{
+		
+	}
+	
+	
+
+	
+	
+}
+
+/* A few exceptions */
+@media screen and (max-width: 851px) {
+
+	.lowlight{
+		font-size: 14px;
+	}
+
+}
+
+
+/* Mobiles */
+@media screen and (max-width: 730px) {
+
+
+	.home-hero {
+		padding-bottom: 16px;
+		padding-top: 80px;
+	}
+	
+	.home-hero svg {
+		display: none;
+	}	
+	
+	
+
+
+	.home-banner--main > p {
+		font-size: 1.48rem;
+	}
+
+	.home-banner{
+		padding-top: 16px;	
+		padding-bottom: 16px;
+	}
+
+	.home-banner--main {
+		font-size: 1.6rem;
+		padding-top: 2rem;
+	}
+
+	.home-banner--sub {
+		font-size: 1.4rem;
+	}
+	
+	.cm-logo {
+		opacity: 0.8;
+		stroke-width: 7;
+	}	
+	
+	.intro-body {
+		padding-top: 1rem;
+	}
+
+	
+	.about-me--person--greeting {
+		font-size: 1.5rem;
+	}	
+	
+
+	.about-me--person--name-container {
+		margin-top: 46%;
+	}	
+	
+	.about-me--person-wrapper, .text-block-wrapper {
+		background-color: #faf9f7;
+		border-bottom: 2px solid #3c3f53;
+		box-shadow: 1px 1px 3px #b4c7dc;
+		margin-bottom: 1rem;
+		margin-right: 0;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+	}
+	
+	
+	.about-me--person-wrapper {
+		float: left;
+		margin-right: 0;
+		width: 100%;
+	}	
+	
+	.highlight{
+		font-size: 28px;
+	}
+	
+	.lowlight{
+		font-size: 16px;	
+		width: unset;
+	}
+	
+	.icon-php-alt, .icon-mysql, .icon-html5, .icon-css3 {
+		margin-top: 0;
+		margin-bottom: 3px;
+	}	
+	
+	.email-contact {
+		margin-left: auto;
+		margin-right: auto;
+		color: #3c3f53;
+		
+		font-size: 20px;
+		padding-top: 5%;
+	}	
+	
+	.email-contact .text-block{
+		width: 90%;
+		font-size: 16px;
+	}
+	
+	.portfolio h1{
+		font-size: 22px;
+	}
+	
+
+}
